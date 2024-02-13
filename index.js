@@ -12,10 +12,10 @@ function fetchJoke(e){
     joke.get("https://api.chucknorris.io/jokes/random")
     .then((data) => {document.getElementById('output').innerText= (data.value)})
     .catch((err) => {document.getElementById('output').innerText= (err.message)})
-    numb.value = ""
-    }
+    numb.value = "";
     alertM()
-    // console.log(123)
+    }
+    
 }
 
 function alertM(){
